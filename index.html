@@ -9,6 +9,11 @@
     <script src="https://unpkg.com/htmx.org@1.9.6" integrity="sha384-FhXw7b6AlE/jyjlZH5iHa/tTe9EpJ1Y55RjcgPbjeWMskSxZt1v9qkxLJWNJaGni" crossorigin="anonymous"></script>
 </head>
 <body>
-    Hello Worldawda
+    <button hx-delete="/account" hx-confirm="Are you sure?">
+        Delete My Account
+    </button>
+    <button hx-put="/account" hx-confirm="Are you sure?">
+        Update My Account
+    </button>
 </body>
 </html>
